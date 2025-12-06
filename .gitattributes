@@ -1,0 +1,42 @@
+# ===== C & C++ DETECTION =====
+# C files
+*.c linguist-language=C
+
+# C++ files (all versions)
+*.cc linguist-language=C++
+*.cpp linguist-language=C++
+*.cxx linguist-language=C++
+*.c++ linguist-language=C++
+
+# Header files (C and C++)
+*.h linguist-language=C++
+*.hh linguist-language=C++
+*.hpp linguist-language=C++
+*.hxx linguist-language=C++
+*.h++ linguist-language=C++
+
+# ===== SQL DETECTION =====
+*.sql linguist-language=SQL
+
+# ===== DOCUMENTATION =====
+*.md linguist-documentation
+README* linguist-documentation
+LICENSE* linguist-documentation
+CHANGELOG* linguist-documentation
+CONTRIBUTING* linguist-documentation
+
+# ===== IGNORE/GENERATED =====
+# Build artifacts
+*.o linguist-vendored
+*.obj linguist-vendored
+*.exe linguist-vendored
+*.dll linguist-vendored
+*.so linguist-vendored
+*.a linguist-vendored
+*.lib linguist-vendored
+
+# IDE/Editor files
+.vscode/ linguist-vendored
+*.sln linguist-vendored
+*.vcxproj linguist-vendored
+*.vcxproj.filters linguist-vendored
