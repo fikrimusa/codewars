@@ -1,3 +1,11 @@
+# ===== FOLDER-SPECIFIC PATTERNS =====
+# For SQL files in SQL/ folder
+SQL/*.sql linguist-language=SQL
+
+# For C files in "C Programming" folder  
+"C Programming/*.c" linguist-language=C
+"C Programming/*.h" linguist-language=C
+
 # ===== C & C++ DETECTION =====
 # C files
 *.c linguist-language=C
