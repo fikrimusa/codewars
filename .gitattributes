@@ -24,6 +24,7 @@ SQL/*.sql linguist-language=SQL
 *.h++ linguist-language=C++
 
 # ===== SQL DETECTION =====
+*.sql linguist-detectable=true
 *.sql linguist-language=SQL
 
 # ===== DOCUMENTATION =====
